@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C78C3E2BA1805100C14357 /* Trans_Batam_ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C78C3D2BA1805100C14357 /* Trans_Batam_ExploreApp.swift */; };
+		F8C78C402BA1805100C14357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C78C3F2BA1805100C14357 /* ContentView.swift */; };
+		F8C78C422BA1805200C14357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C78C412BA1805200C14357 /* Assets.xcassets */; };
+		F8C78C452BA1805200C14357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C78C442BA1805200C14357 /* Preview Assets.xcassets */; };
+		F8C78C4F2BA1805200C14357 /* Trans_Batam_ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C78C4E2BA1805200C14357 /* Trans_Batam_ExploreTests.swift */; };
+		F8C78C592BA1805200C14357 /* Trans_Batam_ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C78C582BA1805200C14357 /* Trans_Batam_ExploreUITests.swift */; };
+		F8C78C5B2BA1805200C14357 /* Trans_Batam_ExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C78C5A2BA1805200C14357 /* Trans_Batam_ExploreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C78C4B2BA1805200C14357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C78C322BA1805000C14357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C78C392BA1805100C14357;
+			remoteInfo = "Trans Batam Explore";
+		};
+		F8C78C552BA1805200C14357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C78C322BA1805000C14357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C78C392BA1805100C14357;
+			remoteInfo = "Trans Batam Explore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C78C3A2BA1805100C14357 /* Trans Batam Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trans Batam Explore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C78C3D2BA1805100C14357 /* Trans_Batam_ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans_Batam_ExploreApp.swift; sourceTree = "<group>"; };
+		F8C78C3F2BA1805100C14357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8C78C412BA1805200C14357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C78C442BA1805200C14357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8C78C4A2BA1805200C14357 /* Trans Batam ExploreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trans Batam ExploreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C78C4E2BA1805200C14357 /* Trans_Batam_ExploreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans_Batam_ExploreTests.swift; sourceTree = "<group>"; };
+		F8C78C542BA1805200C14357 /* Trans Batam ExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trans Batam ExploreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C78C582BA1805200C14357 /* Trans_Batam_ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans_Batam_ExploreUITests.swift; sourceTree = "<group>"; };
+		F8C78C5A2BA1805200C14357 /* Trans_Batam_ExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trans_Batam_ExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C78C372BA1805100C14357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C472BA1805200C14357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C512BA1805200C14357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C78C312BA1805000C14357 = {
+			isa = PBXGroup;
+			children = (
+				F8C78C3C2BA1805100C14357 /* Trans Batam Explore */,
+				F8C78C4D2BA1805200C14357 /* Trans Batam ExploreTests */,
+				F8C78C572BA1805200C14357 /* Trans Batam ExploreUITests */,
+				F8C78C3B2BA1805100C14357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C78C3B2BA1805100C14357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C78C3A2BA1805100C14357 /* Trans Batam Explore.app */,
+				F8C78C4A2BA1805200C14357 /* Trans Batam ExploreTests.xctest */,
+				F8C78C542BA1805200C14357 /* Trans Batam ExploreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C78C3C2BA1805100C14357 /* Trans Batam Explore */ = {
+			isa = PBXGroup;
+			children = (
+				F8C78C3D2BA1805100C14357 /* Trans_Batam_ExploreApp.swift */,
+				F8C78C3F2BA1805100C14357 /* ContentView.swift */,
+				F8C78C412BA1805200C14357 /* Assets.xcassets */,
+				F8C78C432BA1805200C14357 /* Preview Content */,
+			);
+			path = "Trans Batam Explore";
+			sourceTree = "<group>";
+		};
+		F8C78C432BA1805200C14357 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8C78C442BA1805200C14357 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8C78C4D2BA1805200C14357 /* Trans Batam ExploreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C78C4E2BA1805200C14357 /* Trans_Batam_ExploreTests.swift */,
+			);
+			path = "Trans Batam ExploreTests";
+			sourceTree = "<group>";
+		};
+		F8C78C572BA1805200C14357 /* Trans Batam ExploreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C78C582BA1805200C14357 /* Trans_Batam_ExploreUITests.swift */,
+				F8C78C5A2BA1805200C14357 /* Trans_Batam_ExploreUITestsLaunchTests.swift */,
+			);
+			path = "Trans Batam ExploreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C78C392BA1805100C14357 /* Trans Batam Explore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C78C5E2BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam Explore" */;
+			buildPhases = (
+				F8C78C362BA1805100C14357 /* Sources */,
+				F8C78C372BA1805100C14357 /* Frameworks */,
+				F8C78C382BA1805100C14357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trans Batam Explore";
+			productName = "Trans Batam Explore";
+			productReference = F8C78C3A2BA1805100C14357 /* Trans Batam Explore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C78C492BA1805200C14357 /* Trans Batam ExploreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C78C612BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam ExploreTests" */;
+			buildPhases = (
+				F8C78C462BA1805200C14357 /* Sources */,
+				F8C78C472BA1805200C14357 /* Frameworks */,
+				F8C78C482BA1805200C14357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C78C4C2BA1805200C14357 /* PBXTargetDependency */,
+			);
+			name = "Trans Batam ExploreTests";
+			productName = "Trans Batam ExploreTests";
+			productReference = F8C78C4A2BA1805200C14357 /* Trans Batam ExploreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8C78C532BA1805200C14357 /* Trans Batam ExploreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C78C642BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam ExploreUITests" */;
+			buildPhases = (
+				F8C78C502BA1805200C14357 /* Sources */,
+				F8C78C512BA1805200C14357 /* Frameworks */,
+				F8C78C522BA1805200C14357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C78C562BA1805200C14357 /* PBXTargetDependency */,
+			);
+			name = "Trans Batam ExploreUITests";
+			productName = "Trans Batam ExploreUITests";
+			productReference = F8C78C542BA1805200C14357 /* Trans Batam ExploreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C78C322BA1805000C14357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F8C78C392BA1805100C14357 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F8C78C492BA1805200C14357 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F8C78C392BA1805100C14357;
+					};
+					F8C78C532BA1805200C14357 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F8C78C392BA1805100C14357;
+					};
+				};
+			};
+			buildConfigurationList = F8C78C352BA1805000C14357 /* Build configuration list for PBXProject "Trans Batam Explore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C78C312BA1805000C14357;
+			productRefGroup = F8C78C3B2BA1805100C14357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C78C392BA1805100C14357 /* Trans Batam Explore */,
+				F8C78C492BA1805200C14357 /* Trans Batam ExploreTests */,
+				F8C78C532BA1805200C14357 /* Trans Batam ExploreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C78C382BA1805100C14357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C78C452BA1805200C14357 /* Preview Assets.xcassets in Resources */,
+				F8C78C422BA1805200C14357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C482BA1805200C14357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C522BA1805200C14357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C78C362BA1805100C14357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C78C402BA1805100C14357 /* ContentView.swift in Sources */,
+				F8C78C3E2BA1805100C14357 /* Trans_Batam_ExploreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C462BA1805200C14357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C78C4F2BA1805200C14357 /* Trans_Batam_ExploreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C78C502BA1805200C14357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C78C592BA1805200C14357 /* Trans_Batam_ExploreUITests.swift in Sources */,
+				F8C78C5B2BA1805200C14357 /* Trans_Batam_ExploreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C78C4C2BA1805200C14357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C78C392BA1805100C14357 /* Trans Batam Explore */;
+			targetProxy = F8C78C4B2BA1805200C14357 /* PBXContainerItemProxy */;
+		};
+		F8C78C562BA1805200C14357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C78C392BA1805100C14357 /* Trans Batam Explore */;
+			targetProxy = F8C78C552BA1805200C14357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8C78C5C2BA1805200C14357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8C78C5D2BA1805200C14357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C78C5F2BA1805200C14357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trans Batam Explore/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-Explore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C78C602BA1805200C14357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trans Batam Explore/Preview Content\"";
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-Explore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8C78C622BA1805200C14357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-ExploreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trans Batam Explore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trans Batam Explore";
+			};
+			name = Debug;
+		};
+		F8C78C632BA1805200C14357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-ExploreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trans Batam Explore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trans Batam Explore";
+			};
+			name = Release;
+		};
+		F8C78C652BA1805200C14357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-ExploreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trans Batam Explore";
+			};
+			name = Debug;
+		};
+		F8C78C662BA1805200C14357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5U5LLL2K3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Trans-Batam-ExploreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trans Batam Explore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C78C352BA1805000C14357 /* Build configuration list for PBXProject "Trans Batam Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C78C5C2BA1805200C14357 /* Debug */,
+				F8C78C5D2BA1805200C14357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C78C5E2BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C78C5F2BA1805200C14357 /* Debug */,
+				F8C78C602BA1805200C14357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C78C612BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam ExploreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C78C622BA1805200C14357 /* Debug */,
+				F8C78C632BA1805200C14357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C78C642BA1805200C14357 /* Build configuration list for PBXNativeTarget "Trans Batam ExploreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C78C652BA1805200C14357 /* Debug */,
+				F8C78C662BA1805200C14357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C78C322BA1805000C14357 /* Project object */;
+}
